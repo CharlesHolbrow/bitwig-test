@@ -7,7 +7,6 @@ host.defineController("Charles", "move", "1.0", uuid);
 host.defineMidiPorts(1, 1);
 host.addDeviceNameBasedDiscoveryPair(["SimpleTransport"], ["SimpleTransport"]);
 
-
 /**
  * expose the property names of an object
  */
